@@ -10,6 +10,7 @@ int main() {
     int inputValid = 0;
     while(!inputValid)
     {
+        system("cls");
         printf("Digite o numero de cidades desejadas: ");
         if(scanf("%d", &numeroCidades) != 1 || numeroCidades <= 0) {
             system("cls");

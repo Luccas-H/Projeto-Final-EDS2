@@ -162,7 +162,7 @@ void menu(Grafo* grafo, int pesos[100][100], int numeroCidades, char nomeBairro[
             }
             case 3:
                 printf("Encerrando...\n");
-                liberarGrafo(grafo); // Libera a memória alocada para o grafo
+                liberarGrafo(grafo); // Libera a memória do grafo antes de sair
                 break;
             default:
                 printf("Opcao invalida!\n");
